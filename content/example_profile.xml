@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="ada8fb2f-ba03-46b6-a695-35763beed453">
+    <metadata>
+        <title>IFA GoodRead Profile</title>
+        <last-modified>2023-05-17T13:57:28.355446-04:00</last-modified>
+        <version>1.0</version>
+        <oscal-version>1.0.4</oscal-version>
+    </metadata>
+    <import
+        href="https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_MODERATE-baseline-resolved-profile_catalog.json">
+        <include-controls>
+            <with-id>ac-6.1</with-id>
+        </include-controls>
+    </import>
+    <merge>
+        <flat />
+    </merge>
+</profile>

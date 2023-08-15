@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computer xmlns="http://example.com/ns/computer" id="awesomepc1">
+  <vendor id="vendor1">
+    <name>AwesomeComp Incorportated</name>
+    <address>1000 K Street NW Washington, DC 20001</address>
+    <website>https://example.com/awesomecomp/</website>
+  </vendor>
+  <motherboard>
+    <vendor id="vendor2">
+      <name>ISA Corp</name>
+      <address>2000 K Street NW Washington, DC 20002</address>
+      <website>https://example.com/isacorp/</website>
+    </vendor>
+    <product-name>Magestic Model M-Ultra Motherboard</product-name>
+    <type>atx</type>
+    <cpu>
+      <vendor id="vendor2">
+        <name>ISA Corp</name>
+        <address>2000 K Street NW Washington, DC 20002</address>
+        <website>https://example.com/isacorp/</website>
+      </vendor>
+      <product-name>Superchip Model 1 4-core Processor</product-name>
+      <architecture>x86-64</architecture>
+      <speed>4.7 gigahertz</speed>
+    </cpu>
+    <ata-socket>
+      <vendor id="vendor2">
+        <name>ISA Corp</name>
+        <address>2000 K Street NW Washington, DC 20002</address>
+        <website>https://example.com/isacorp/</website>
+      </vendor>
+      <product-name>SuperSATA Model 2 Storage Socket</product-name>
+      <type>sata</type>
+    </ata-socket>
+    <memory>
+      <vendor id="vendor3">
+        <name>Massive Memory Corp</name>
+        <address>3000 K Street NW Washington, DC 20003</address>
+        <website>https://example.com/massive-memory-corp/</website>
+      </vendor>
+      <product-name>Model 3 DDR4-3200 8GB (Module 1)</product-name>
+      <byte-size>8589934592</byte-size>
+    </memory>
+    <memory>
+      <vendor id="vendor3">
+        <name>Massive Memory Corp</name>
+        <address>3000 K Street NW Washington, DC 20003</address>
+        <website>https://example.com/massive-memory-corp/</website>
+      </vendor>
+      <product-name>Model 3 DDR4-3200 8GB (Module 2)</product-name>
+      <byte-size>8589934592</byte-size>
+    </memory>
+  </motherboard>
+</computer>

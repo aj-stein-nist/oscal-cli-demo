@@ -1,0 +1,64 @@
+{
+    "computer": {
+      "id": "awesomepc1",
+      "vendor": {
+        "id": "vendor1",
+        "name": "AwesomeComp Incorportated",
+        "address": "1000 K Street NW Washington, DC 20001",
+        "website": "https://example.com/awesomecomp/"
+      },
+      "motherboard": {
+        "vendor": {
+          "id": "vendor2",
+          "name": "ISA Corp",
+          "address": "2000 K Street NW Washington, DC 20002",
+          "website": "https://example.com/isacorp/"
+        },
+        "product-name": "Magestic Model M-Ultra Motherboard",
+        "type": "atx",
+        "cpu": {
+          "vendor": {
+            "id": "vendor2",
+            "name": "ISA Corp",
+            "address": "2000 K Street NW Washington, DC 20002",
+            "website": "https://example.com/isacorp/"
+          },
+          "product-name": "Superchip Model 1 4-core Processor",
+          "architecture": "x86-64",
+          "speed": "4.7 gigahertz"
+        },
+        "ata-socket": {
+          "vendor": {
+            "id": "vendor2",
+            "name": "ISA Corp",
+            "address": "2000 K Street NW Washington, DC 20002",
+            "website": "https://example.com/isacorp/"
+          },    
+          "product-name": "SuperSATA Model 2 Storage Socket",
+          "type": "sata"
+        },
+        "memory-modules": [
+          {
+            "vendor": {
+              "id": "vendor3",
+              "name": "Massive Memory Corp",
+              "address": "3000 K Street NW Washington, DC 20003",
+              "website": "https://example.com/massive-memory-corp/"
+            },
+            "product-name": "Model 3 DDR4-3200 8GB (Module 1)",
+            "byte-size": 8589934592
+          },
+          {
+            "vendor": {
+              "id": "vendor3",
+              "name": "Massive Memory Corp",
+              "address": "3000 K Street NW Washington, DC 20003",
+              "website": "https://example.com/massive-memory-corp/"
+            },
+            "product-name": "Model 3 DDR4-3200 8GB (Module 2)",
+            "byte-size": 8589934592
+          }
+        ]
+      }
+    }
+  }
