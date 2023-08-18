@@ -7,7 +7,7 @@ paginate: true
 # What is oscal-cli? How do I use it?
 
 <!-- _paginate: skip -->
-<!-- _class: topic -->
+<!-- _class: intro -->
 
 ---
 

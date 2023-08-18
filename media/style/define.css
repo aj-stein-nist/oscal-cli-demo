@@ -7,7 +7,7 @@
 } */
 
 section {
-    background-image: url("https://github.com/usnistgov/OSCAL-DEFINE/blob/main/media/img/background.png?raw=true");
+background-image: url("https://github.com/aj-stein-nist/oscal-cli-demo/blob/main/media/img/background.png?raw=true");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -18,11 +18,11 @@ section {
 }
 
 section.intro {
-    background-image: url("https://github.com/usnistgov/OSCAL-DEFINE/blob/main/media/img/intro.png?raw=true");
+    background-image: url("https://github.com/aj-stein-nist/oscal-cli-demo/blob/main/media/img/intro.png?raw=true");
 }
 
 section.topic {
-    background-image: url("https://github.com/usnistgov/OSCAL-DEFINE/blob/main/media/img/section.png?raw=true");
+    background-image: url("https://github.com/aj-stein-nist/oscal-cli-demo/blob/main/media/img/section.png?raw=true");
 }
 
 
