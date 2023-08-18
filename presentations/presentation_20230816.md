@@ -1,14 +1,13 @@
 ---
 marp: true
-title: "Learn you an oscal-cli for the better security data!"
-author: NIST OSCAL Team
-class: invert workshop
-footer: "![height:50px](https://www.nist.gov/libraries/nist-component-library/dist/img/logo/NIST-Logo-Brand-White.svg)"
-header: "Learn you an oscal-cli for better security data!"
+theme: define
 paginate: true
 ---
 
 # What is oscal-cli? How do I use it?
+
+<!-- _paginate: skip -->
+<!-- _class: topic -->
 
 ---
 
