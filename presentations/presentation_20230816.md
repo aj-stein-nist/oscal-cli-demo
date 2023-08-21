@@ -86,6 +86,7 @@ paginate: true
   - [Development snapshots](https://oss.sonatype.org/content/repositories/snapshots/gov/nist/secauto/oscal/tools/oscal-cli/cli-core/)
   - [Stable releases](https://repo1.maven.org/maven2/gov/nist/secauto/oscal/tools/oscal-cli/cli-core/)
 - Extract the latest release.
+- Check GPG signature.
 - Check the version and test the install.
 
 ---
