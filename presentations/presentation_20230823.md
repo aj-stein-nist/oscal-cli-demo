@@ -179,7 +179,7 @@ Validation identified the following in file '/mnt/oscal-cli-demo/content/example
 ## Data Modeling
 
 ```sh
-./bin/oscal-cli metaschema validate /mnt/oscal-cli-demo/content/computer_metaschema.xml --as=xml
+./bin/oscal-cli metaschema validate /mnt/oscal-cli-demo/content/computer_metaschema.xml
 ```
 
 ---
