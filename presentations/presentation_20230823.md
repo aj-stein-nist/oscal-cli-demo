@@ -133,8 +133,10 @@ You can download the slides and examples content from [github.com/aj-stein-nist/
 $ oscal-cli ssp validate --as=xml content/example_ssp_error.xml 
 Validating '/tmp/oscal-cli-demo/content/example_ssp_error.xml' as XML.
 Validation identified the following in file '/tmp/oscal-cli-demo/content/example_ssp_error.xml'.
-[ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'. [file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
-[ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'. [file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
+[ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'.
+[file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
+[ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'.
+[file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
 ```
 
 ---
