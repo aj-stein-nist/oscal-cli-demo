@@ -114,15 +114,15 @@ You can download the slides and examples content from [github.com/aj-stein-nist/
 ## Data Validation
 
 ```sh
-./bin/oscal-cli ssp validate example-ssp.json
+./bin/oscal-cli ssp validate /mnt/oscal-cli-demo/content/example_ssp.json
 ```
 
 ```sh
-./bin/oscal-cli ssp validate example-ssp.xml
+./bin/oscal-cli ssp validate /mnt/oscal-cli-demo/content/example_ssp.xml
 ```
 
 ```sh
-./bin/oscal-cli ssp validate example-ssp.custom --as=yaml
+./bin/oscal-cli ssp validate /mnt/oscal-cli-demo/content/example_ssp.custom --as=yaml
 ```
 
 ---
@@ -130,13 +130,13 @@ You can download the slides and examples content from [github.com/aj-stein-nist/
 ## Interpreting Error Messages
 
 ```sh
-$ oscal-cli ssp validate --as=xml content/example_ssp_error.xml 
-Validating '/tmp/oscal-cli-demo/content/example_ssp_error.xml' as XML.
-Validation identified the following in file '/tmp/oscal-cli-demo/content/example_ssp_error.xml'.
+./bin/oscal-cli ssp validate --as=xml /mnt/oscal-cli-demo/content/example_ssp_error.xml 
+Validating '/mnt/oscal-cli-demo/content/example_ssp_error.xml' as XML.
+Validation identified the following in file '/mnt/oscal-cli-demo/content/example_ssp_error.xml'.
 [ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'.
-[file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
+[file:///mnt/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
 [ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'.
-[file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
+[file:///mnt/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
 ```
 
 ---
@@ -144,34 +144,22 @@ Validation identified the following in file '/tmp/oscal-cli-demo/content/example
 ## Data Conversion
 
 ```
- ./bin/oscal-cli ssp convert example-ssp.xml --to=json
+ ./bin/oscal-cli ssp convert /mnt/oscal-cli-demo/content/example_ssp.xml --to=json
 ```
 
 ```
-./bin/oscal-cli ssp convert example-ssp.yaml --to=json
+./bin/oscal-cli ssp convert /mnt/oscal-cli-demo/content/example_ssp.yaml --to=json
 ```
 ---
 
 ## Data Processing
 
 ```
-./bin/oscal-cli profile resolve example_profile.json --to=xml
+./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_ssp.json --to=xml
 ```
 
 ```
-./bin/oscal-cli profile resolve example_profile.xml --to=json
-```
-
----
-
-## Data Modeling
-
-```
-./bin/oscal-cli metaschema generate-schema computer-metaschema.xml --as=json
-```
-
-```
-./bin/oscal-cli metaschema generate-schema computer-metaschema.xml --as=xml
+./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_ssp.xml --to=json
 ```
 
 ---
@@ -179,7 +167,11 @@ Validation identified the following in file '/tmp/oscal-cli-demo/content/example
 ## Data Modeling
 
 ```
-./bin/oscal-cli metaschema validate computer_metaschema.xml --as=xml
+./bin/oscal-cli metaschema generate-schema /mnt/oscal-cli-demo/content/computer_metaschema.xml --as=json
+```
+
+```
+./bin/oscal-cli metaschema generate-schema /mnt/oscal-cli-demo/content/computer_metaschema.xml --as=xml
 ```
 
 ---
@@ -187,11 +179,19 @@ Validation identified the following in file '/tmp/oscal-cli-demo/content/example
 ## Data Modeling
 
 ```
-./bin/oscal-cli metaschema validate-content -m=computer_metaschema.xml computer.xml
+./bin/oscal-cli metaschema validate /mnt/oscal-cli-demo/content/computer_metaschema.xml --as=xml
+```
+
+---
+
+## Data Modeling
+
+```
+./bin/oscal-cli metaschema validate-content -m=/mnt/oscal-cli-demo/content/computer_metaschema.xml /mnt/oscal-cli-demo/content/computer.xml
 ```
 
 ```
-./bin/oscal-cli metaschema validate-content -m=computer_metaschema.xml computer.json
+./bin/oscal-cli metaschema validate-content -m=/mnt/oscal-cli-demo/content/computer_metaschema.xml /mnt/oscal-cli-demo/content/computer.json
 ```
 
 ---
