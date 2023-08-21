@@ -1,6 +1,6 @@
 ---
 marp: true
-title: Testing 123
+title: Learn you an oscal-cli for better security data!
 theme: define
 paginate: true
 ---
@@ -23,7 +23,7 @@ You can download the slides and examples content from [github.com/aj-stein-nist/
 
 - Today's presentation has the following goals.
   - Locate, download, and install oscal-cli releases
-  - Use the tool for its four high-level features
+  - Use the tool for its four high-level functionalities
   - Understand architecture for advanced usage to extend or adapt those features
 
 ---
