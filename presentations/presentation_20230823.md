@@ -100,10 +100,10 @@ You can download the slides and examples content from [github.com/aj-stein-nist/
 
 ---
 
-## Features of oscal-cli
+## Functionalities of oscal-cli
 
 - There are several key points to remember with oscal-cli.
-  - The conversion and validation features function the same for all models.
+  - The conversion and validation functionalities function the same for all models.
     - `./bin/oscal-cli $modelname convert example.xml --to=json`
     - `./bin/oscal-cli $modelname validate example.xml`
   - Data processing is specific to each model (e.g. only profile resolution at this time).
@@ -113,18 +113,29 @@ You can download the slides and examples content from [github.com/aj-stein-nist/
 
 ## Data Validation
 
-```
+```sh
 ./bin/oscal-cli ssp validate example-ssp.json
 ```
 
-```
+```sh
 ./bin/oscal-cli ssp validate example-ssp.xml
 ```
 
-```
+```sh
 ./bin/oscal-cli ssp validate example-ssp.custom --as=yaml
 ```
 
+---
+
+## Interpreting Error Messages
+
+```sh
+$ oscal-cli ssp validate --as=xml content/example_ssp_error.xml 
+Validating '/tmp/oscal-cli-demo/content/example_ssp_error.xml' as XML.
+Validation identified the following in file '/tmp/oscal-cli-demo/content/example_ssp_error.xml'.
+[ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'. [file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
+[ERROR] cvc-complex-type.4: Attribute 'state' must appear on element 'implementation-status'. [file:///tmp/oscal-cli-demo/content/example_ssp_error.xml{260,41}]
+```
 
 ---
 
