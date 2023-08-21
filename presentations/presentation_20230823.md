@@ -10,6 +10,15 @@ paginate: true
 
 ---
 
+## Slides and examples
+
+
+![bg right 75%](https://github.com/aj-stein-nist/oscal-cli-demo/blob/main/media/img/qrcode_presentation.png?raw=true)
+
+You can download the slides and examples content from [github.com/aj-stein-nist/oscal-cli-demo/releases/](https://github.com/aj-stein-nist/oscal-cli-demo/releases/).
+
+---
+
 ## Goals
 
 - Today's presentation has the following goals.
