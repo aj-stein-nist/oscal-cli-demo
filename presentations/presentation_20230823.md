@@ -155,11 +155,11 @@ Validation identified the following in file '/mnt/oscal-cli-demo/content/example
 ## Data Processing
 
 ```sh
-./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_ssp.json --to=xml
+./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_profile.json --to=xml
 ```
 
 ```sh
-./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_ssp.xml --to=json
+./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_profile.xml --to=json
 ```
 
 ---
