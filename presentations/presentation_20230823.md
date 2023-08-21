@@ -94,8 +94,8 @@ You can download the slides and examples content from [github.com/aj-stein-nist/
 - Download the latest release per [the project's instructions](https://github.com/usnistgov/oscal-cli#installing).
   - [Development snapshots](https://oss.sonatype.org/content/repositories/snapshots/gov/nist/secauto/oscal/tools/oscal-cli/cli-core/)
   - [Stable releases](https://repo1.maven.org/maven2/gov/nist/secauto/oscal/tools/oscal-cli/cli-core/)
-- Extract the latest release.
 - Check GPG signature.
+- Extract the latest release.
 - Check the version and test the install.
 
 ---
