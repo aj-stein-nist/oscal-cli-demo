@@ -143,22 +143,22 @@ Validation identified the following in file '/mnt/oscal-cli-demo/content/example
 
 ## Data Conversion
 
-```
+```sh
  ./bin/oscal-cli ssp convert /mnt/oscal-cli-demo/content/example_ssp.xml --to=json
 ```
 
-```
+```sh
 ./bin/oscal-cli ssp convert /mnt/oscal-cli-demo/content/example_ssp.yaml --to=json
 ```
 ---
 
 ## Data Processing
 
-```
+```sh
 ./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_ssp.json --to=xml
 ```
 
-```
+```sh
 ./bin/oscal-cli profile resolve /mnt/oscal-cli-demo/content/example_ssp.xml --to=json
 ```
 
@@ -166,11 +166,11 @@ Validation identified the following in file '/mnt/oscal-cli-demo/content/example
 
 ## Data Modeling
 
-```
+```sh
 ./bin/oscal-cli metaschema generate-schema /mnt/oscal-cli-demo/content/computer_metaschema.xml --as=json
 ```
 
-```
+```sh
 ./bin/oscal-cli metaschema generate-schema /mnt/oscal-cli-demo/content/computer_metaschema.xml --as=xml
 ```
 
@@ -178,7 +178,7 @@ Validation identified the following in file '/mnt/oscal-cli-demo/content/example
 
 ## Data Modeling
 
-```
+```sh
 ./bin/oscal-cli metaschema validate /mnt/oscal-cli-demo/content/computer_metaschema.xml --as=xml
 ```
 
@@ -186,11 +186,11 @@ Validation identified the following in file '/mnt/oscal-cli-demo/content/example
 
 ## Data Modeling
 
-```
+```sh
 ./bin/oscal-cli metaschema validate-content -m=/mnt/oscal-cli-demo/content/computer_metaschema.xml /mnt/oscal-cli-demo/content/computer.xml
 ```
 
-```
+```sh
 ./bin/oscal-cli metaschema validate-content -m=/mnt/oscal-cli-demo/content/computer_metaschema.xml /mnt/oscal-cli-demo/content/computer.json
 ```
 
